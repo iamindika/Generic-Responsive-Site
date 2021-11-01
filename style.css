@@ -19,9 +19,24 @@ body {
   position: relative;
 }
 
+.highlight {
+  color: #A59678;
+}
+
+.btn {
+  display: inline-block;
+  padding: .5em 1.5em;
+  border-radius: 100px;;
+  background-color: #A59678;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 1.3125rem 'Oswald', sans-serif;
+  color: #FFF;
+}
+
 .navigation {
   background-color: #2E323F;
-  font: 1.125rem 'Oswald', sans-serif;
+  font: 1rem 'Oswald', sans-serif;
   text-align: center;
   padding: 1em 0;
 }
@@ -123,4 +138,20 @@ body {
   padding: .25em 1em;
   background-color: #A59678;
   border-radius: 200px;
+}
+
+.banner {
+  padding: 50px 0;
+  background-color: #3B4050;
+}
+
+.banner__title {
+  margin-top: 0;
+  font: 3.75rem / 1.25 'Oswald', sans-serif;
+  color: #FFF;
+}
+
+.banner__content {
+  font-size: 1.3125rem;
+  color: #FFF;
 }
