@@ -41,7 +41,7 @@ body {
 
 .nav-toggle:hover,
 .nav-toggle:focus {
-  opacity: .75;
+  opacity: .5;
 }
 
 .hamburger {
@@ -61,7 +61,6 @@ body {
 .hamburger::before,
 .hamburger::after {
   content: '';
-  width: 100%;
 }
 
 .hamburger::before {
