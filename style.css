@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  font: 400 1rem 'Montserrat', sans-serif;
+  font: 1rem 'Montserrat', sans-serif;
 }
 
 .container {
@@ -21,9 +21,9 @@ body {
 
 .navigation {
   background-color: #2E323F;
-  font: 900 1.125rem 'Oswald', sans-serif;
+  font: 1.125rem 'Oswald', sans-serif;
   text-align: center;
-  padding: .5em 0;
+  padding: 1em 0;
 }
 
 .nav-toggle {
@@ -71,7 +71,56 @@ body {
   transform: translateY(3px);
 }
 
-.nav-list {
+.logo {
+  margin-bottom: 0.5em;
+}
+
+.nav {
   visibility: hidden;
   height: 0;
+  position: absolute;
+  font-size: 1.125em;
+}
+
+.nav--visible {
+  visibility: visible;
+  height: auto;
+  position: relative;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__list--primary {
+  margin-bottom: 2em;
+}
+
+.nav__list--secondary {
+  margin-bottom: .25em;
+}
+
+.nav__item + .nav__item {
+  margin-top: 0.5em;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #FFF;
+  opacity: 0.80;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: .5;
+}
+
+.nav__link--button {
+  display: inline-block;
+  margin-top: .25em;
+  padding: .25em 1em;
+  background-color: #A59678;
+  border-radius: 200px;
 }
