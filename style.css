@@ -12,6 +12,10 @@ body {
   font: 1rem 'Montserrat', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 80%;
   max-width: 1200px;
@@ -32,6 +36,11 @@ body {
   text-transform: uppercase;
   font: 1.3125rem 'Oswald', sans-serif;
   color: #FFF;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: .75;
 }
 
 .navigation {
@@ -169,4 +178,43 @@ body {
 
 .section-one__text {
   text-align: justify;
+}
+
+.section-two {
+  padding: 50px 0;
+}
+
+.section-two__title {
+  margin-top: 0;
+  font: 1.875rem 'Oswald', sans-serif;
+}
+
+.section-two__text {
+  margin-bottom: 0;
+  font-size: 1.125rem;
+}
+
+.section-two__aside {
+  margin-top: 50px;
+}
+
+.aside__col {
+  padding: 2em 0;
+  background-color: #3B4050;
+  text-align: center;
+  color: #FFF;
+}
+
+.aside__col + .aside__col {
+  margin-top: 1em;
+}
+
+.aside__title {
+  margin-top: 0;
+  font: 1.75rem 'Oswald', sans-serif;
+}
+
+.aside__text {
+  width: 90%;
+  margin: 0 auto;
 }
